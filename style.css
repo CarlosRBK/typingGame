@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
+h1{
+  background-color: greenyellow;
+  color: blueviolet;
+  font-family: 'Silkscreen', cursive;
+  text-align: center;
+  display:inline-block; /* para que no ocupe el 100% del ancho, solo lo que ocupa el texto*/
+  position: relative; /* para poder mover las rayas de los costados a la posicion origianl */
+}
+
+p{
+  background-color: greenyellow;
+  font-family: 'Silkscreen', cursive;
+  font-size: x-large;
+  border-style: dotted;
+}
+
+h1::after,h1::before{
+  content:'';
+  position:absolute;
+  width:120px;; /* anchura de la linea*/
+  height:3px; /* anchura */
+  background-color: currentColor; /* es igual al color del elemento */
+  top:0.6em; 
+  transform: scale(0); /* hace que desaparezcan las lineas */
+  transition:all 0.2s ease-in; /* tiempo que tarda en volvera a aparecer la linea */
+}
+
+h1:hover::before, h1:hover::after{
+  transform:scale(1)
+}
+
+h1::before{
+  left: -140px;
+}
+
+h1::after{
+  right: -140px;
+}
+
+header{
+  background-color: blueviolet;
+  font-size: x-large;
+  position:relative;
+  padding: 5%;
+  opacity: 0.7;
+  margin: -1%;
+  
+}
+
+#headtext{
+  display:inline-block;
+
+}
+
+body {
+  text-align: center;
+  background-image:url("./images/gif.gif");
+  background-repeat: repeat;
+  background-color: greenyellow;
+  margin: -1%;
+}
+
+#message {
+  font-size: x-large;
+  color: blueviolet;
+  font-family: 'Silkscreen', cursive;
+  background-color: greenyellow;
+}
+
+#quote {
+  font-size: x-large;
+  color: blueviolet;
+  font-family: 'Silkscreen', cursive;
+  background-color: greenyellow;
+}
+
+#inicio {
+  font-size: x-large;
+}
+
+#texto-tipeado{
+  font-size: x-large;
+}
+
+.highlight {
+    background-color: yellow;
+}
+  
+.error {
+    background-color: lightcoral;
+    border: red;
+}
