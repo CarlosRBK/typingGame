@@ -1,13 +1,13 @@
 // dentro del script.js
 // todas nuestros textos de ejemplo
 const textos = [
-    'WHEN YOU HAVE ELIMINATED THE IMPOSSIBLE, WHATEVER REMAINS, HOWEVER IMPROBABLE, MUST BE THE TRUTH.',
-    'THERE IS NOTHING MORE DECEPTIVE THAN AN OBVIOUS FACT.',
-    'I OUGHT TO KNOW BY THIS TIME THAT WHEN A FACT APPEARS TO BE OPPOSED TO A LONG TRAIN OF DEDUCTIONS IT INVARIABLY PROVES TO BE CAPABLE OF BEARING SOME OTHER INTERPRETATION.',
-    'I NEVER MAKE EXCEPTIONS. AN EXCEPTION DISPROVES THE RULE.',
-    'WHAT ONE MAN CAN INVENT ANOTHER CAN DISCOVER.',
-    'NOTHING CLEARS UP A CASE SO MUCH AS STATING IT TO ANOTHER PERSON.',
-    'EDUCATION NEVER ENDS, WATSON. IT IS A SERIES OF LESSONS, WITH THE GREATEST FOR THE LAST.',
+    'When you have eliminated the impossible, whatever remains, however improbable, must be the truth.',
+    'There is nothing more deceptive than an obvious fact.',
+    'I ought to know by this time that when a fact appears to be opposed to a long train of deductions it invariably proves to be capable of bearing some other interpretation.',
+    'I never make exceptions. An exception disproves the rule.',
+    'What one man can invent another can discover.',
+    'Nothing clears up a case so much as stating it to another person.',
+    'Education never ends, Watson. It is a series of lessons, with the greatest for the last.',
 ];
 // almacena la lista de palabras y el índice de la palabra que el jugador está escribiendo actualmente
 let palabras = [];
