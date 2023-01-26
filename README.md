@@ -1,3 +1,3 @@
 # typingGame
-PorgramandoParaguay
-Juego de escritura desarrollado con Javascript.
+Juego de escritura desarrollado con HTML, CSS y Javascript, desarrollado durante el Pre-Bootcamp de Programando Paraguay
+
